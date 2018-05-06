@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "204455404664",
+    "firebase_url": "https://ambulanceangelhack-21cc4.firebaseio.com",
+    "project_id": "ambulanceangelhack-21cc4",
+    "storage_bucket": "ambulanceangelhack-21cc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204455404664:android:d64ecdff6d43d4a0",
+        "android_client_info": {
+          "package_name": "anubrata.com.ambulanceangelhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204455404664-89gu4g8vvhip47r7ukntnitjc621pjg0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "anubrata.com.ambulanceangelhack",
+            "certificate_hash": "8400682d03e8ead30e080c562ec8fabb4fc4e113"
+          }
+        },
+        {
+          "client_id": "204455404664-1diblf729dh94k4360aptejqs94j8pg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWS4ZT9xP_0DdawPBDiERW9VCkxYJd6jI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204455404664-1diblf729dh94k4360aptejqs94j8pg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup_1"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="Booking for?"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/yesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:padding="20dp"
+
+        android:text="Self"
+        android:theme="@style/AppTheme.Button2" />
+
+    <Button
+        android:id="@+id/someoneElseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/yesButton"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:text="Someone else"
+        android:theme="@style/AppTheme.Button3"
+        tools:ignore="UnknownId" />
+
+</LinearLayout>
